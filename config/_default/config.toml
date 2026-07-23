@@ -1,7 +1,11 @@
 # Change baseurl before deploy
-baseurl = "https://starter.stack.cai.im/"
+baseurl = "https://miori3.github.io/via.chair.github.io/"
 locale  = "en-us"
-title   = "Hugo Theme Stack Starter"
+title   = "via.chair"
+[params]
+navbar_title = "Via Chair"
+homeTitle = "Via Chair"
+
 
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
@@ -12,7 +16,7 @@ defaultContentLanguage = "en"
 hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
-disqusShortname = "hugo-theme-stack"
+disqusShortname = "via"
 
 [pagination]
     pagerSize = 5

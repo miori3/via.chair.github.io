@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon        = "img/favicon.png"
+favicon        = "img/icon1.jpeg"
 
 # Accepted values: "default", "lastmod"
 # default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
@@ -10,8 +10,8 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
-    customText = ""
+    since      = 2026
+    customText = "底"
 
 [dateFormat]
     published   = ":date_full"
@@ -19,8 +19,8 @@ SortBy              = "default"
 
 [sidebar]
     emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    avatar   = "img/avatar.png"
+    subtitle = "散步."
+    avatar   = "img/avatar.jpeg"
 
 [article]
     headingAnchor = false
@@ -28,8 +28,7 @@ SortBy              = "default"
     readingTime   = true
 
     [article.license]
-        enabled = true
-        default = "Licensed under CC BY-NC-SA 4.0"
+        enabled = false
 
 [widgets]
     homepage = [

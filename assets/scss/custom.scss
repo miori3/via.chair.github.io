@@ -1,13 +1,11 @@
-/*
-    You can add your own custom styles here.
-*/
 html, body {
-  background-image: url("/img/water.05.jpg") !important;
+  background-image: url("../img/water.05.jpeg") !important;
   background-size: cover !important;
   background-position: center !important;
   background-attachment: fixed !important;
   background-repeat: no-repeat !important;
 }
+
 .main-container, .sidebar, .main {
   background: transparent !important;
 }
@@ -16,6 +14,7 @@ html, body {
   background: rgba(255, 255, 255, 0.85) !important;
   backdrop-filter: blur(4px);
 }
+
 body, html {
-  cursor: url("/img/icecream.png") 16 16, auto !important;
+  cursor: url("../img/icecream.png") 16 16, auto !important;
 }

@@ -1,21 +1,21 @@
 /*
     You can add your own custom styles here.
 */
-body {
-    background-image: url("/img/water.05.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; // 滚动时背景不动，营造深度感
-    background-repeat: no-repeat;
-  }
-  .article-list article {
-    background: rgba(255, 255, 255, 0.85); // 深色模式下换成深色半透明
-    backdrop-filter: blur(4px); // 毛玻璃效果，可选
-  }
-  body {
-    cursor: url("/img/wrun2.gif"), auto; // auto 是找不到图片时的备用样式
-  }
-  
-  a, button, .article-list article {
-    cursor: url("/img/wrun2.gif"), pointer; // 悬停在可点击元素上时换一个样式
-  }
+html, body {
+  background-image: url("/img/water.05.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+.main-container, .sidebar, .main {
+  background: transparent !important;
+}
+
+.article-list article {
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(4px);
+}
+body, html {
+  cursor: url("/img/icecream.png") 16 16, auto !important;
+}
